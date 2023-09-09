@@ -8,7 +8,7 @@ export default function Home() {
            </div>
       <div className="image-container">
         <img src="/foto1.webp" alt="MEGA PROMOÇÃO" />
-        <img src="/foto3.webp" alt="Outra imagem" />
+        <img src="/foto3.webp" alt="promoção" />
       </div>
     </main>
   );
