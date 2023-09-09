@@ -13,3 +13,15 @@ function App() {
   )
 }
 export default App
+export default function Home() {
+  return (
+    <main>
+      <h1>BEM VINDO AO HOME DA LOJA TECH</h1>
+      <div className="promocao">
+        <img src="/public/fotooo.jpg" alt="promoção" />
+        <p>descrição</p>
+      </div>
+
+    </main>
+  );
+}
