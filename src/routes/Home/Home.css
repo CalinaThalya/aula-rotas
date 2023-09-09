@@ -1,9 +1,46 @@
+/* styles.css (ou outro arquivo de estilos) */
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: sticky;
+  bottom: 0;
+}
+
 .image-container {
-    display: flex; /* Define um container flexível */
-    justify-content: space-between; /* Distribui o espaço entre os elementos filhos */
-  }
-  
-  .image-container img {
-    width: 48%; /* Define a largura das imagens para ocupar 48% do espaço cada */
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px; /* Espaçamento entre as imagens */
+}
+
+.image-container img {
+  max-width: 50%; /* Garante que as imagens não ultrapassem o contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  border: 1px solid #ddd; /* Adiciona uma borda às imagens */
+  padding: 30px; /* Espaçamento interno em torno das imagens */
+}

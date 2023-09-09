@@ -1,17 +1,20 @@
 export default function Home() {
     return (
+
+      <div className="home-container">
+      <header>
+              <h1>HOME</h1>
+      </header>
       <main>
-      <div>
-        <head>
-        <h1>HOME</h1>
-        </head>
-           </div>
-      <div className="image-container">
-        <img src="/foto1.webp" alt="MEGA PROMOÇÃO" />
-        <img src="/foto3.webp" alt="promoção" />
-      </div>
-    </main>
-  );
-}
+        <div className="image-container">
+          <img src="/fotomouse.png" alt="MEGA PROMOÇÃO" />
+          <img src="/teclado.png" alt="promoção" />
+        </div>
+      </main>
+    </div>
+        );
+      }
+      
+
     
   
