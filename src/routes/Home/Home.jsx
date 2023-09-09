@@ -3,7 +3,7 @@ export default function Home() {
     <main>
         <h1>HOME</h1>
         <div className="promocao">
-        <img src="public/fotooo.jpg" alt="Promoção 1" />
+        <img src="public/fotooo.jpg" alt="Promoção " />
         <p>Descrição da Promoção 1</p>
       </div>
 
