@@ -10,8 +10,6 @@ export default function Home() {
         <img src="/foto1.webp" alt="MEGA PROMOÇÃO" />
         <img src="/foto3.webp" alt="Outra imagem" />
       </div>
-      <div className="text-container">
-      </div>
     </main>
   );
 }

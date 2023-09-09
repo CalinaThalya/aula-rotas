@@ -1,0 +1,9 @@
+.image-container {
+    display: flex; /* Define um container flexível */
+    justify-content: space-between; /* Distribui o espaço entre os elementos filhos */
+  }
+  
+  .image-container img {
+    width: 48%; /* Define a largura das imagens para ocupar 48% do espaço cada */
+  }
+  
