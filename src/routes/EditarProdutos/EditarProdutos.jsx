@@ -11,14 +11,15 @@ export default function EditarProduto() {
   const produto = proc[0]
   
   const salvar = () => {
-    alert(`Produto: ${produto.nome} editado com sucesso!`)
+    alert(`Produto: ${produto.nome} salvo com sucesso!`)
     return navegacao('/produtos')
   }
   
   return (
     <main>
-        <h1>Editando o produto</h1>
-        <p>Editando os dados do produto: {produto.nome}</p>
+        <h1>Visualizar Produto</h1>
+        <p>Visualizando os dados do produto: {produto.nome}</p>
+        <img src={produto.imagem} alt={produto.nome} />
         <button onClick={salvar}>Salvar</button>
     </main>
   )

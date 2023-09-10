@@ -3,7 +3,7 @@ export default function Home() {
 
       <div className="home-container">
       <header>
-              <h1>HOME</h1>
+              <h1>PROMOÇÃO</h1>
       </header>
       <main>
         <div className="image-container">
