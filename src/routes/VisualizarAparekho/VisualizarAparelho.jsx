@@ -1,12 +1,11 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import aparelhos from './aparelhos'; // Importe a lista de aparelhos
+import aparelhos from './aparelhos'; 
 import { ListaProdutos } from '../../components/ListaProduto';
 
 const VisualizarAparelho = () => {
   const { id } = useParams();
 
-  // Encontre o aparelho com base no ID da URL
   const aparelhoSelecionado = aparelhos.find((aparelho) => aparelho.id === parseInt(id));
 
   if (!ListaProdutos) {
