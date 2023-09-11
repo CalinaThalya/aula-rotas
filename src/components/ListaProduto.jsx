@@ -25,7 +25,7 @@ export const ListaProdutos = [
   },
   {
     id: 4,
-    nome: 'iphone',
+    nome: 'Iphone',
     imagem: iphoneImagem,
     preco: '5000'
   },
