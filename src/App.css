@@ -1,61 +1,82 @@
+/* Estilos para a raiz da aplicação */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: 1280px; /* Define a largura máxima da raiz da aplicação */
+  margin: 0 auto; /* Centraliza a raiz horizontalmente na página */
+  padding: 2rem; /* Adiciona espaço interno de 2rem em todos os lados da raiz */
+  text-align: center; /* Centraliza o texto e o conteúdo dentro da raiz */
 }
 
+/* Estilos para a classe 'logo' */
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  height: 6em; /* Define a altura da classe 'logo' como 6em */
+  padding: 1.5em; /* Adiciona espaço interno de 1.5em em todos os lados da classe 'logo' */
+  will-change: filter; /* Indica que a propriedade 'filter' será animada */
+  transition: filter 300ms; /* Adiciona uma transição suave de 300ms à propriedade 'filter' */
 }
 
+/* Estilos para 'logo' quando o mouse paira sobre ele */
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa); /* Aplica uma sombra ao elemento quando o mouse paira sobre ele */
+}
+
+/* Estilos para 'logo' quando o mouse paira sobre ele e a classe 'react' está presente */
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa); /* Aplica uma sombra diferente quando a classe 'react' está presente */
+}
+
+/* Animação de giro da 'logo' */
 @keyframes logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* Define a rotação inicial da 'logo' como 0 graus */
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* Define a rotação final da 'logo' como 360 graus (um círculo completo) */
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
+/* Estilos para a classe 'card' */
 .card {
-  padding: 2em;
+  padding: 2em; /* Adiciona espaço interno de 2em em todos os lados da classe 'card' */
 }
 
+/* Estilos para a classe 'read-the-docs' */
 .read-the-docs {
-  color: #000000;
+  color: #000000; /* Define a cor do texto da classe 'read-the-docs' como preta (#000000) */
 }
 
-nav{
-  display : flex ; width: 100vw;
-  justify-content: center; align-items: center;
-  height: 8vh; background-color: rgb(220, 65, 225);
-
-  & a{color:rgb(0, 0, 0); font-size: 1.5em; padding: 15px;}
+/* Estilos para o elemento 'nav' */
+nav {
+  display: flex; /* Define 'nav' como um flex container */
+  width: 100vw; /* Define a largura como 100% da largura da janela */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  height: 8vh; /* Define a altura da 'nav' como 8% da altura da janela */
+  background-color: rgb(220, 65, 225); /* Define a cor de fundo da 'nav' */
 }
 
-main{ display: flex; width: 100vw;
-  flex-direction: column; justify-content: center;
-  align-items: center; height: 70vh;
+/* Estilos para links dentro de 'nav' */
+nav a {
+  color: rgb(0, 0, 0); /* Define a cor do texto dos links como preta */
+  font-size: 1.5em; /* Define o tamanho da fonte como 1.5em (em relação ao tamanho padrão) */
+  padding: 15px; /* Adiciona espaço interno de 15px em todos os lados dos links */
 }
 
-footer{
-  display: flex; width: 100vw; justify-content: center;
-  align-items: center; height: 10vh;
-  background-color: rgb(189, 39, 181);
+/* Estilos para o elemento 'main' */
+main {
+  display: flex; /* Define 'main' como um flex container */
+  width: 100vw; /* Define a largura como 100% da largura da janela */
+  flex-direction: column; /* Define a direção dos filhos como coluna */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  height: 70vh; /* Define a altura da 'main' como 70% da altura da janela */
+}
+
+/* Estilos para o elemento 'footer' */
+footer {
+  display: flex; /* Define 'footer' como um flex container */
+  width: 100vw; /* Define a largura como 100% da largura da janela */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  height: 10vh; /* Define a altura do 'footer' como 10% da altura da janela */
+  background-color: rgb(189, 39, 181); /* Define a cor de fundo do 'footer' */
 }
