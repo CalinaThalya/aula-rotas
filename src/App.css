@@ -7,7 +7,7 @@
 
 .logo {
   height: 6em;
-  padding: 2.0em;
+  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -38,15 +38,15 @@
 }
 
 .read-the-docs {
-  color: #ffffff;
+  color: #000000;
 }
 
 nav{
   display : flex ; width: 100vw;
   justify-content: center; align-items: center;
-  height: 8vh; background-color: rgb(225, 65, 220);
+  height: 8vh; background-color: rgb(220, 65, 225);
 
-  & a{color:rgb(7, 7, 7); font-size: 1.8em; padding: 40px;}
+  & a{color:rgb(0, 0, 0); font-size: 1.5em; padding: 15px;}
 }
 
 main{ display: flex; width: 100vw;
@@ -56,51 +56,6 @@ main{ display: flex; width: 100vw;
 
 footer{
   display: flex; width: 100vw; justify-content: center;
-  align-items: center; height: 7vh;
-  background-color: rgb(238, 19, 227);
-  text-align: center;
-  background-color: rgb(238, 19, 227);
-  color: #fff;
-  padding: 10px;
-  position: sticky;
-}
-
-.home-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  align-items: center; /* Centraliza o conteúdo verticalmente */
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-}
-
-header {
-  color: #000000;
-  padding: 20px; /* Reduzimos o padding para centralizar o h1 */
-  text-align: center;
-}
-
-header h1 {
-  margin: 0; /* Removemos as margens padrão do h1 para centralizá-lo */
-}
-
-
-.content {
-  flex-grow: 1;
-  display: flex;
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  align-items: center; /* Centraliza o conteúdo verticalmente */
-}
-
-.image-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 300px; /* Espaçamento entre as imagens */
-}
-
-.image-container img {
-  max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner */
-  height: auto; /* Mantém a proporção da imagem */
-  border: 2px solid #ddd; /* Adiciona uma borda às imagens */
-  padding: 40px; /* Espaçamento interno em torno das imagens */
+  align-items: center; height: 10vh;
+  background-color: rgb(189, 39, 181);
 }

@@ -17,7 +17,7 @@ export default function EditarProduto() {
   
   return (
     <main>
-        <h1>Visualizar Produto</h1>
+        <h1>Visualizando Produto</h1>
         <p>Preço: R$ {produto.preco}</p>
         <img src={produto.imagem} alt={produto.nome} />
         <button onClick={salvar}>Salvar</button>
