@@ -7,12 +7,11 @@ export default function Produtos() {
   
     <main>
       <h1>Produtos</h1>
-            {/* Mapeia a lista de produtos e renderiza um link para visualizar cada produto */}
       {ListaProdutos.map(prod => (
-        <div key={prod.id}>
-                    {/* Link para a página de edição do produto com base no 'id' */}
-          <Link to={`/produtos/editar/${prod.id}`}>Visualizar o produto: {prod.nome}
-                      {/* Exibe o texto 'Visualizar o produto' seguido pelo nome do produto */}
+        <div key={prod.id} className="ListaProduto">
+                    {/* Link para a página de edição do produto */}
+          <Link to={`/produtos/editar/${prod.id}`} className="textolink">Visualizar o produto: {prod.nome}
+                      {/* Exibe o texto 'Visualizando o produto' e os dados dele */}
           </Link>
         </div>
       ))}
