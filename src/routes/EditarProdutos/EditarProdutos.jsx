@@ -24,8 +24,9 @@ export default function EditarProduto() {
     <main>
         <h1>Visualizando Produto</h1>
         <p>Preço: R$ {produto.preco}</p>
+        <p>Descrição: {produto.Descrição}</p>
         <img src={produto.imagem} alt={produto.nome} />
-        <button onClick={salvar}>Salvar</button>
+        <button onClick={salvar}>Salvar no Carrinho</button>
     </main>
   )
 }

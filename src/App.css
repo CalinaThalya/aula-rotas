@@ -15,10 +15,10 @@
 }
 
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa); /
+  filter: drop-shadow(0 0 2em #000000aa); /
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa); 
+  filter: drop-shadow(0 0 2em #020303aa); 
 }
 
 @keyframes logo-spin {
@@ -35,7 +35,7 @@
 }
 
 .read-the-docs {
-  color: #fcf9f9; /* Define a cor do texto da classe 'read-the-docs' como preta (#000000) */
+  color: #000000; 
 }
 
 /* Estilos para o elemento 'nav' */
@@ -45,12 +45,12 @@ nav {
   justify-content: center; /* Centraliza os itens horizontalmente */
   align-items: center; /* Centraliza os itens verticalmente */
   height: 8vh; /* Define a altura da 'nav' como 8% da altura da janela */
-  background-color: rgb(220, 65, 225); /* Define a cor de fundo da 'nav' */
+  background-color: rgb(247, 200, 245); /* Define a cor de fundo da 'nav' */
 }
 
 /* Estilos para links dentro de 'nav' */
 nav a {
-  color: rgb(255, 255, 255); /* Define a cor do texto dos links  */
+  color: rgb(29, 23, 23); /* Define a cor do texto dos links  */
   font-size: 1.5em; /* Define o tamanho da fonte como 1.5em (em relação ao tamanho padrão) */
   padding: 15px; /* Adiciona espaço interno de 15px em todos os lados dos links */
 }
@@ -67,20 +67,20 @@ main {
 
 /* Estilos para o elemento 'footer' */
 footer {
-  color: white;
+  color: rgb(255, 255, 255);
   display: flex; /* Define 'footer' como um flex container */
   width: 100vw; /* Define a largura como 100% da largura da janela */
   justify-content: center; /* Centraliza os itens horizontalmente */
   align-items: center; /* Centraliza os itens verticalmente */
   height: 10vh; /* Define a altura do 'footer' como 10% da altura da janela */
-  background-color: rgb(189, 39, 181); /* Define a cor de fundo do 'footer' */
+  background-color: rgb(251, 170, 247); /* Define a cor de fundo do 'footer' */
 }
 
 button {
-  background-color: #ff69b4; /* Define a cor de fundo como rosa */
-  color: #fff; /* Define a cor do texto como branco */
+  background-color: #c5a2b3; /* Define a cor de fundo como rosa */
+  color: #000000; /* Define a cor do texto como branco */
   padding: 10px 20px; /* Adiciona espaço interno de 10px na parte superior e inferior e 20px nos lados */
-  border: none; /* Remove a borda do botão */
+  border: 1px solid #000000; 
   border-radius: 5px; /* Adiciona cantos arredondados */
   cursor: pointer; /* Define o cursor como uma mãozinha ao pairar sobre o botão */
   font-size: 1em; /* Define o tamanho da fonte como 1em (em relação ao tamanho padrão) */
@@ -90,7 +90,33 @@ button {
 /* No seu arquivo de estilos CSS ou componente de estilos */
 h1 {
   font-size: 2em; /* Define o tamanho da fonte como 2 vezes o tamanho padrão */
-  color: #ff69b4; /* Define a cor do texto como rosa */
+  color: #dc69ff; /* Define a cor do texto como rosa */
   text-align: center; /* Centraliza o texto horizontalmente */
   margin-top: 20px; /* Adiciona um espaço superior de 20px */
+  font-style: oblique;
+}
+ 
+.ListaProduto{
+  border: 1px solid #000000; /* Borda ao redor de cada item de produto */
+  padding: 10px; /* Espaçamento interno para cada item de produto */
+  margin-bottom: 10px; /* Espaçamento inferior entre os itens de produto */
+  background-color: #d8afe4; /* Cor de fundo para cada item de produto */
+  display: flex; /* Usar flexbox para alinhar o conteúdo horizontalmente */
+  align-items: center
+}
+
+.textolink{
+  color: #010101;
+  font-style: oblique;
+
+}
+
+p{
+  font-style: oblique;
+  color: rgb(0, 0, 0);
+}
+
+.menu img{
+    width: 50px;
+    margin-right: 800px;
 }
